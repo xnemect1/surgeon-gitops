@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
   - ../../../apps/xnemect-surgeon-ufe
+  - ../../../apps/xnemect-surgeon-webapi
 
 components:
   - ../../../components/version-developers
+  - https://github.com/xnemect1/surgeon-webapi//deployments/kustomize/components/mongodb
+
+patches:
+  - path: patches/surgeon-webapi.service.yaml

@@ -2,8 +2,11 @@ apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
   - name: xnemect/surgeon-ufe
-    newName: xnemect/surgeon-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
-    newTag: main # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+    newName: xnemect/surgeon-ufe # {"$imagepolicy":  "wac-hospital:surgeon-ufe:name"}
+    newTag: main # {"$imagepolicy": "wac-hospital:surgeon-ufe:tag"}
   - name: milung/ufe-controller
     newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
     newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
+  - name: xnemect/surgeon-wl-webapi
+    newName: xnemect/surgeon-wl-webapi # {"$imagepolicy":  "wac-hospital:surgeon-webapi:name"}
+    newTag: main # {"$imagepolicy": "wac-hospital:surgeon-webapi:tag"}

@@ -16,3 +16,5 @@ resources:
   - ufe-controller.image-repository.yaml
   - ufe-controller.image-policy.yaml
   - image-update-automation.yaml
+  - surgeon-webapi.image-repository.yaml
+  - surgeon-webapi.image-policy.yaml
