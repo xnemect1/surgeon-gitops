@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
   - ../../../apps/xnemect-surgeon-ufe
+  - ../../../apps/xnemect-surgeon-webapi
 
 components:
   - ../../../components/version-release
