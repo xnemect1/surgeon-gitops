@@ -3,3 +3,8 @@ kind: Kustomization
 
 resources:
   - "https://github.com/xnemect1/surgeon-webapi//deployments/kustomize/install" # ?ref=v1.0.1
+  - openapi-ui.service.yaml
+  - http-route.yaml
+
+patches:
+  - path: patches/surgeon-webapi.deployment.yaml

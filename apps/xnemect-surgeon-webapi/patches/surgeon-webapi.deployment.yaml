@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xnemect-surgeon-webapi
+spec:
+  template:
+    spec:
+      containers:
+        - name: openapi-ui
+          env:
+            - name: URL
+              value: /xnemect-openapi
+            - name: BASE_URL
+              value: /xnemect-openapi-ui
