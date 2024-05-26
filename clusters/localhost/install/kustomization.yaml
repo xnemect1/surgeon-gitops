@@ -11,6 +11,7 @@ commonLabels:
 resources:
   - ../../../apps/xnemect-surgeon-ufe
   - ../../../apps/xnemect-surgeon-webapi
+  - ../../../apps/mongo-express
 
 components:
   - ../../../components/version-developers
