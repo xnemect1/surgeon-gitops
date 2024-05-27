@@ -6,7 +6,7 @@ images:
     newTag: 1.1.0 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
   - name: xnemect/surgeon-wl-webapi
     newName: xnemect/surgeon-wl-webapi
-    newTag: 1.1.0
+    newTag: 1.1.1
 replacements:
   - targets:
       - select:
