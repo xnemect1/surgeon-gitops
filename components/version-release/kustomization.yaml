@@ -3,10 +3,10 @@ kind: Component
 images:
   - name: xnemect/surgeon-ufe
     newName: xnemect/surgeon-ufe
-    newTag: 1.1.8 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+    newTag: 1.1.9 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
   - name: xnemect/surgeon-wl-webapi
     newName: xnemect/surgeon-wl-webapi
-    newTag: 1.1.6
+    newTag: 1.1.7
 replacements:
   - targets:
       - select:
