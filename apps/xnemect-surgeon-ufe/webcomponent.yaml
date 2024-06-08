@@ -16,7 +16,7 @@ spec:
           value: /xnemect-api
         - name: surgeon-id
           value: bobulova
-      path: xnemect-surgeon-wl # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+      path: xnemect-surgeon # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Zoznam chirurgov xnemect # názov mikro aplikácie
       details: Spravuje zoznam chuirurgov a ich zakrokov
   preload: false # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
